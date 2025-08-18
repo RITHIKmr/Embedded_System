@@ -6,17 +6,16 @@ int mul(int,int);
 int div(int,int);
 
 int main(){
-    int ret_Sum=add(5,6);
-    printf("the sum is =%d \n",ret_Sum);
-    int ret_sub=sub(5,6);
-    printf("the substracted answer is=%d \n",ret_sub);
-    int ret_mul=mul(5,6);
-    printf("the multiplied answer is=%d \n",ret_mul);
-    int ret_div=div(5,6);
-    printf("the divided answer is=%d \n",ret_div);
+    int a,b,ans;
+    printf("enter a number");
+    scanf("%d",&a);
+    printf("enter another number");
+    scanf("%d",&b);
+    ans=a+b;
+    printf("the answer is%d",ans);
 }
 //function definition
-int add(int a, int b){
+int add(int a,int b){
     int sum;
     sum=a+b;
     return sum;
