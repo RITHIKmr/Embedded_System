@@ -7,7 +7,7 @@ int main(){
     };
     struct employee e;
     printf("enter the name:\t");
-    scanf("%31[^\n]",e.name);
+    scanf("%19[^\n]",e.name);
     printf("enter the id:\t");
     scanf("%d",&e.id);
     printf("enter the salary:\t");
